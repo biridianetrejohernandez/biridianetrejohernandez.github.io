@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Unbounded:wght@200..900&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header, nav, footer, main {
+	width: 100%;
+	background-color: #003366; /* Azul oscuro */
+	color: #FFA500; /* Naranja */
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: auto;
+}
+h1 {
+	font-family: "Outfit Black";
+}
+h1, h4 {
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	color: #FFA500; /* Naranja */
+	font-family: "Outfit Medium"; 
+}
+
+nav {
+	height: 100px;
+	background-color: #0057b8; /* Azul vibrante */
+	overflow-y: auto;
+}
+
+nav ul {
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+	width: 10%;
+	min-width: 120px;
+	list-style-type: none;
+	background-color: #FFA500; /* Naranja */
+	color: black;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #003366; /* Azul oscuro */
+}
+
+nav ul li:hover {
+	background-color: #FF4500; /* Naranja oscuro */
+	width: 120px;
+	font-size: 18px;
+}
+a {
+	font-family: "Outfit";
+}
+
+main {
+	height: auto;
+	background-color: #f8f9fa; /* Gris claro */
+}
+
+section {
+	width: 80%;
+	height: auto;
+	background-color: #0057b8; /* Azul vibrante */
+	color: white;
+	padding: 30px;
+	margin: 30px auto;
+	overflow-x: auto;
+	font-size: 14pt;
+	text-align: center;
+	border-radius: 10px;
+}
+section h2{
+	font-family: "Unbounded", sans-serif;
+	font-size: 40px;
+}
+section p{
+	font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+}
+header h1{
+	font-family: "Unbounded", sans-serif;
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+
+h2, p {
+	margin-bottom: 30px;
+}
+
+#tabla_1 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tabla_1 th, #tabla_1 td, 
+#tabla_2 th, #tabla_2 td, 
+#tabla_3 th, #tabla_3 td {
+	padding: 10px 10px 5px 10px;
+}
+
+#tabla_1 th, #tabla_2 th, #tabla_3 th {
+	background-color: #003366; /* Azul oscuro */
+	color: white;
+}
+
+#tabla_1 td {
+	background-color: #FFA500; /* Naranja */
+}
+
+#tabla_2 {
+	width: 100%;
+	border: 5px solid #FFA500; /* Naranja */
+	border-spacing: 10px;
+	border-collapse: collapse;
+}
+
+#tabla_2 th, #tabla_2 td {
+	border: 3px solid #FFA500;
+}
+
+#tabla_2 tbody tr:nth-child(even) {
+	background-color: #FF8C00; /* Naranja medio */
+}
+
+#tabla_2 tbody tr:nth-child(odd) {
+	background-color: #FFA500; /* Naranja */
+}
+
+#tabla_3 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #0057b8; /* Azul vibrante */
+	border-collapse: collapse;
+}
+
+#tabla_3 th {
+	height: 60px;
+}
+
+#tabla_3 td {
+	height: 50px;
+	padding-left: 10px;
+}
+
+#tabla_3 th, #tabla_3 td {
+	border: 2px solid #003366; /* Azul oscuro */
+}
+
+#tabla_3 tr:hover {
+	background-color: #FF8C00; /* Naranja medio */
+	color: white;
+}
+
+h1, h6 {
+	text-align: center;
+	font-size: 48px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+img { 
+	width: 100%;
+}
+.imagenes_box{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.imagen_flotante_izq {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+	
+}
+.imagen_flotante_der{
+	width: 20%;
+	float: right;
+	margin-left: 20px;
+	
+}
+.fondo {
+	background-image: url("../Imagenes/Digital play I_A Digital Wall Art.jpg");
+	background-size:cover;
+}
+.section-filtros{
+	color: cornflowerblue;
+	text-align: center;
+}
+.section-filtros img{
+	width: 25%;
+	display:inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.imagen_enlace{
+	width: 64px;
+	height: auto;
+	display:block;
+	margin-right: 50px;
+	margin-left: auto;
+}
+form{
+	width: 50%;
+	height: auto;
+	padding: 50px;
+	background-color: lightsteelblue;
+	border-radius: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+label{
+	color: solid #003366;
+	font-weight: bold;
+	margin-bottom: 30px;
+	padding: 10px;
+	background-color: solid #003366;
+}
+input[type=text],input[type=password], select, mensaje {
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 10px;
+	background-color: aliceblue;
+	color:  #003366;
+	border:  1px solid #003366;
+	
+		
+}
+input[type=submit]{
+	width: 20%; 
+	min-width:100px; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+	background-color: #FFA500;
+	color: antiquewhite;
+	border: 3px solid #003366;
+	border-radius: 10px;
+	
+}
+input[type=text]:focus, input[type=password]:focus, select:focus {
+	color:blue;
+	background-color: coral;
+	
+}
+
+
+
+
+
+
+
