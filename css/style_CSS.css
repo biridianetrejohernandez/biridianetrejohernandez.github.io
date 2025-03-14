@@ -276,7 +276,22 @@ input[type=text]:focus, input[type=password]:focus, select:focus {
 	background-color: coral;
 	
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaciado entre los iconos */
+}
 
+.social-icons img {
+    width: 40px; /* Ajusta el tamaño de los iconos */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Efecto al pasar el mouse */
+}
 
 
 
